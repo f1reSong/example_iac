@@ -19,8 +19,10 @@ As you see, main module contain nested modules for better code readability. Curr
 If you just found this repository from internet, Please remember: This code is a quick example and I recommend to use for your projects more complex and ready modules from terraform registry. This modules more flexible, provide more functionality and has support from community and/or maintainer, agains this code may be never update or supported in future.
 
 ## TO DO
+```
 Add checking number of AZ's and Private subnets
 Add variable to setup a nat gw configuration(single/2(multi-az)/for every private subnet)
 Add ACL and SG functionality
 Add other modules(RDS, EC2, Lambda, etc)
 Add remote backend optional configurations(S3, terraform cloud)
+```
