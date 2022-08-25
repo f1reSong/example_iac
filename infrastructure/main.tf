@@ -1,6 +1,4 @@
-# provider "aws" {
-#   region = "us-east-1"
-# }
+# Move values to variables
 
 module "us-east-1" {
     source = "./modules/common_infra"
