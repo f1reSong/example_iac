@@ -1,13 +1,15 @@
 # Example IaC templates in Terraform
 This repository collect example IaC for building common infrastructure in AWS. 
 ### Structure:
-├── Configuration
-|   ├── Roles
-├── Infrastructure
-|   ├── Modules
-|       ├── common_infra
-|           ├── Modules
-|               ├── Other Modules
+  .
+  ├── Configuration
+     ├── Roles
+  ├── Infrastructure
+     ├── Modules
+         ├── common_infra
+             ├── Modules
+                 ├── Other Modules
+
 Root directory contains 2 subdirs, where we keep terraform and ansible code base(Ansible part not ready right now), in this example we will use ansible for pre-configuring new instances created by terraform and based on base AMI's
 ####Ansible
 Will be added after ansible part would be created
